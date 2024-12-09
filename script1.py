@@ -1,3 +1,3 @@
 import os
 print("helllllllllo")
-#print(os.environ)
+print(os.environ)
