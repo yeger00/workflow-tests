@@ -4,3 +4,4 @@ print(os.environ)
 
 for i in os.environ.get("SECRET_KEY"):
   print(i)
+print("done")
