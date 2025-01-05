@@ -11,7 +11,9 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
-
+      - name: echo
+        run: |
+          echo ${{ github.actor }}
       - name: git fetch
         run: |
           git fetch
